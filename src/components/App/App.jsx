@@ -1,6 +1,7 @@
 import { Status } from "config.js/config";
 import { useState, useEffect } from "react";
 import { getPhoto } from "../../services/api";
+
 import Searchbar from '../Searchbar/Searchbar';
 import ImageGallery from '../ImageGallery/ImageGallery';
 import Loader from '../Loader/Loader';
